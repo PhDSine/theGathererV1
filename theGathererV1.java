@@ -81,7 +81,8 @@ public class theGathererV1 {
 
         String[] codes = {"RIX"};
 
-        String fileName = "C:\\CompSci\\MagicProject\\AllSets.json\\AllSets.json";
+        // Enter the path of the folder containing AllSets.json here
+        String fileName = "C:\\User\\theGatherer\\AllSets.json\\AllSets.json";
 
 
 
