@@ -24,7 +24,9 @@ You'll also want to download the AllSets.json file from [MTGJSON.com](https://mt
 Please note that the recent price function in theGatherer won't work. I decided to remove that section of the code to protect mtggoldfish.com's info. It's legal to use it for non-profit & academic purposes. However, because I can't guarantee everyone who downloads it via github will do the same, I have set the function to return $0.00 as the price for each card.
 
 # Running the Price Analysis with Python
-The python set-up is pretty simple. Simply set your working directory to the folder containing the .csv files. If you change the name of the .csv files, you'll need to edit the "csv" field on line 9 of the python code.
+First you'll want to download the Master12718.csv and RIX.csv. The first file has all Modern legal cards and their prices as of January 27th, 2018. The RIX file contains all of the cards from Rivals of Ixalan. The python code is set up to try its prediction model on the newest cards (Rivals of Ixalan), the RIX cards are not included in the Master set to avoid training the set to those cards. 
+
+The python set-up is pretty simple. Simply set your working directory to the folder containing the .csv files. If you change the name of the master .csv file, you'll need to edit the "csv" field on line 9 of the python code.
 
 ## Authors
 [Dylan Dilla](https://www.linkedin.com/in/dylandilla/) (Link goes to my LinkedIn)
